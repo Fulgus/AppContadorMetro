@@ -2,130 +2,130 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Jose Maria\.android\build-cache\cb48d66493c16a59d0767a1005b1879a2205d7b7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f836946a593fcd6960a350d170dd303d2bdeba7d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Jose Maria\.android\build-cache\d182a3f246d4976366bf6bb1025a277138c088cc\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7154e4e6667956eb3ea996ea48621b128290591b\classes.dex" />
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\classes_7154e4e6667956eb3ea996ea48621b128290591b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Jose Maria\.android\build-cache\dcd81273a570e75186cb281a17ed95c4a5fee733\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Jose Maria\.android\build-cache\cb48d66493c16a59d0767a1005b1879a2205d7b7\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6e6292a444da11721e71c98a39551acb6016acec\classes.dex" />
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\classes_f836946a593fcd6960a350d170dd303d2bdeba7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\AndroidStudio\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_34ced0e7decc34fdbfdcfc3121b6328e1bc273d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jose Maria\.android\build-cache\e4012a63f1ca4781bdfc7bb2d5a5789b8e7a2885\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\classes_2865a22f816577bfe75e9339ae9d676700ac0b7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jose Maria\.android\build-cache\7b1db562fa0c3426ffa23bffd2dfceddd38c8036\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\classes_568bc3bb49d5879c98f8db4978f2606a5415ccaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jose Maria\.android\build-cache\9355414972cfe71cadad86e81489803832a07f84\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\classes_66388fbdab3ec4cd5046152fa569092d1b9a79ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jose Maria\.android\build-cache\103e9f86a1bbff449dbc5614caa1fbd90f1fa60b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\classes_6c1504c8b3fa2699af53c0e01741da938646bfe4.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Proyectos\MetroMalaga\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a8b39f609b5ff81f5115feae5516d1ef2c232e2f\classes.dex" />
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1ab52d6a3523dcda4676d0cf3db5e9df8884f774\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\AndroidStudio\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_34ced0e7decc34fdbfdcfc3121b6328e1bc273d3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jose Maria\.android\build-cache\103e9f86a1bbff449dbc5614caa1fbd90f1fa60b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6c1504c8b3fa2699af53c0e01741da938646bfe4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jose Maria\.android\build-cache\9355414972cfe71cadad86e81489803832a07f84\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_66388fbdab3ec4cd5046152fa569092d1b9a79ab\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jose Maria\.android\build-cache\45f2a22f80aca43fa29c73515a73fa59c1b74626\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_60cb776dd5d875560700c0754e2379a46160a1a3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\AndroidStudio\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_7b901f4b38ebd405410cdfcea5feedfc40958cb6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jose Maria\.android\build-cache\7b1db562fa0c3426ffa23bffd2dfceddd38c8036\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_568bc3bb49d5879c98f8db4978f2606a5415ccaa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jose Maria\.android\build-cache\e4012a63f1ca4781bdfc7bb2d5a5789b8e7a2885\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2865a22f816577bfe75e9339ae9d676700ac0b7b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Jose Maria\.android\build-cache\0cda9dd8d001cbe135bc5b68770034857b357620\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94a9f5c260046c4d32f92c0a7bd46ab9d82de9e3\classes.dex" />
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\classes_94a9f5c260046c4d32f92c0a7bd46ab9d82de9e3.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\AndroidStudio\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_7b901f4b38ebd405410cdfcea5feedfc40958cb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jose Maria\.android\build-cache\45f2a22f80aca43fa29c73515a73fa59c1b74626\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\classes_60cb776dd5d875560700c0754e2379a46160a1a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Jose Maria\.android\build-cache\48731309fd8603ad4d399e151764b61d81b79b8c\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_92c6f883345fbb3b66361881f6341a25d6503fee\classes.dex" />
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\classes_92c6f883345fbb3b66361881f6341a25d6503fee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jose Maria\.android\build-cache\dcd81273a570e75186cb281a17ed95c4a5fee733\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\pre-dexed\debug\classes_6e6292a444da11721e71c98a39551acb6016acec.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Proyectos\MetroMalaga\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fd49e6fd5e330327cef8742c0696ed01bbddddda">
-        <dex dex="C:\Proyectos\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_24d04b3289447b646b627602e03e9ad1ed27c14d\classes.dex" />
+        sha1="3d7a0623e18bd14b7c5ca8eb01a56c9c845a449e">
+        <dex dex="C:\Proyectos\AppContadorMetro\MetroMalaga\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1688156e7e7d4e4f0fb17fd9f240a0ed0b6c2517\classes.dex" />
     </item>
 
 </items>

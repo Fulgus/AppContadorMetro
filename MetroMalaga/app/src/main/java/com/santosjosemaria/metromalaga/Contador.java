@@ -13,9 +13,11 @@ import android.widget.Toast;
 public class Contador extends AppCompatActivity {
 
     EditText saldoInicialv;
-    TextView saldoInicial, saldoRestante, saldoRestantev;
+    TextView saldoInicial, saldoRestante, saldoRestantev, numeroViajes, numeroViajesv;
     final Double valorViaje = 0.82;
-    double valorViajeRestante;
+    Double numeroDeViajes;
+    Integer viajesInt;
+    Double valorViajeRestante;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,11 +28,16 @@ public class Contador extends AppCompatActivity {
         saldoInicial = (TextView) findViewById(R.id.saldoInicial);
         saldoRestante = (TextView) findViewById(R.id.saldoRestante);
         saldoRestantev = (TextView) findViewById(R.id.saldoRestantev);
+        numeroViajes = (TextView) findViewById(R.id.numeroViajes);
+        numeroViajesv = (TextView) findViewById(R.id.numeroViajesv);
 
         saldoRestantev.setText("0");
-
+        saldoRestante.setVisibility(View.INVISIBLE);
+        saldoRestantev.setVisibility(View.INVISIBLE);
 
         final Button viajeBtn = (Button) findViewById(R.id.viajeButton);
+        viajeBtn.setVisibility(View.INVISIBLE);
+        final Button storeBtn = (Button) findViewById(R.id.storageButton);
 
 
         viajeBtn.setOnClickListener(new View.OnClickListener() {
@@ -39,10 +46,38 @@ public class Contador extends AppCompatActivity {
                 valorViajeRestante = Double.parseDouble(saldoRestantev.getText().toString().trim());
                 if (valorViajeRestante < valorViaje){
                     Toast.makeText(getApplicationContext(), "Necesitas recargar la tarjeta", Toast.LENGTH_SHORT).show();
+                    saldoInicialv.setVisibility(View.VISIBLE);
+                    saldoInicial.setVisibility(View.VISIBLE);
+                    storeBtn.setVisibility(View.VISIBLE);
+                    saldoInicialv.setText(" ");
+                    saldoRestante.setVisibility(View.INVISIBLE);
+                    saldoRestantev.setVisibility(View.INVISIBLE);
+                    viajeBtn.setVisibility(View.INVISIBLE);
+
                 }
                 else{
-                    if (!saldoRestantev.getText().toString().isEmpty())
+                    if (!saldoRestantev.getText().toString().isEmpty()){
                         saldoRestantev.setText(String.valueOf(Double.parseDouble(saldoRestantev.getText().toString())-valorViaje));
+                        numeroDeViajes = valorViajeRestante/valorViaje - 1;
+                        viajesInt = numeroDeViajes.intValue();
+                        numeroViajesv.setText((String.valueOf(viajesInt)));
+                    }
+                }
+            }
+        });
+
+
+        storeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!saldoInicialv.getText().toString().isEmpty()) {
+                    saldoRestantev.setText(saldoInicialv.getText());
+                    saldoInicialv.setVisibility(View.INVISIBLE);
+                    saldoInicial.setVisibility(View.INVISIBLE);
+                    storeBtn.setVisibility(View.INVISIBLE);
+                    viajeBtn.setVisibility(View.VISIBLE);
+                    saldoRestante.setVisibility(View.VISIBLE);
+                    saldoRestantev.setVisibility(View.VISIBLE);
                 }
             }
         });
@@ -51,20 +86,14 @@ public class Contador extends AppCompatActivity {
         saldoInicialv.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
             }
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                viajeBtn.setEnabled(true);
             }
 
             @Override
             public void afterTextChanged(Editable s) {
-                if (!saldoInicialv.getText().toString().isEmpty())
-                    saldoRestantev.setText(saldoInicialv.getText());
-                else
-                    saldoRestantev.setText("0");
             }
         });
     }
