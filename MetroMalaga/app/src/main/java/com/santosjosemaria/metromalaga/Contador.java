@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 public class Contador extends AppCompatActivity {
 
     EditText saldoInicialv;
@@ -18,6 +17,7 @@ public class Contador extends AppCompatActivity {
     Double numeroDeViajes;
     Integer viajesInt;
     Double valorViajeRestante;
+    Double viajeRounded;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +57,8 @@ public class Contador extends AppCompatActivity {
                 }
                 else{
                     if (!saldoRestantev.getText().toString().isEmpty()){
-                        saldoRestantev.setText(String.valueOf(Double.parseDouble(saldoRestantev.getText().toString())-valorViaje));
+                        viajeRounded = Double.parseDouble(saldoRestantev.getText().toString())-valorViaje;
+                        saldoRestantev.setText(String.format("%.2f", viajeRounded));
                         numeroDeViajes = valorViajeRestante/valorViaje - 1;
                         viajesInt = numeroDeViajes.intValue();
                         numeroViajesv.setText((String.valueOf(viajesInt)));
